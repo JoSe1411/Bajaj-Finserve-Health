@@ -15,7 +15,7 @@ A **production-ready REST API** that processes arrays of mixed data types and re
 ## 🚀 Features
 
 - **High Performance**: Optimized data processing with O(n) complexity
-- **Security**: Rate limiting, CORS, Helmet security headers
+- **Security**: CORS, Helmet security headers
 - **Validation**: Comprehensive input validation with Joi
 - **Error Handling**: Graceful error handling with detailed responses
 - **Testing**: Complete test suite with Jest and Supertest
@@ -344,7 +344,7 @@ curl http://localhost:3000/bfhl
 ## 🛡️ Security Features
 
 - ✅ Input validation with Joi schemas
-- ✅ Rate limiting (100 req/15min per IP)
+- ✅ Optimized for serverless deployment
 - ✅ CORS protection
 - ✅ Security headers via Helmet
 - ✅ Error sanitization
