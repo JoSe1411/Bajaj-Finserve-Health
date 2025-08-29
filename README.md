@@ -8,8 +8,8 @@
 A **production-ready REST API** that processes arrays of mixed data types and returns categorized results according to BFHL specifications. Built with enterprise-grade security, validation, and performance optimizations.
 
 ## 🎯 Live Demo
-- **API Endpoint**: `https://your-deployed-url.com/bfhl`
-- **Health Check**: `https://your-deployed-url.com/bfhl` (GET)
+- **API Endpoint**: `https://bfhl-api-production-56cd.up.railway.app`
+- **Health Check**: `https://bfhl-api-production-56cd.up.railway.app/bfhl` (GET)
 - **Interactive Testing**: Use the test script or any HTTP client
 
 ## 🚀 Features
