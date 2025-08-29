@@ -298,18 +298,6 @@ The API handles various error scenarios:
 
 All errors return structured JSON responses with `is_success: false`.
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add/update tests
-5. Submit a pull request
-
-## 📄 License
-
-MIT License - see LICENSE file for details.
-
 ## 🔧 Troubleshooting
 
 ### Common Issues & Solutions
@@ -352,4 +340,3 @@ curl http://localhost:3000/bfhl
 
 
 **Important**: Update personal information in `.env` or environment variables before deployment.
-# Deployment fix - Fri Aug 29 11:01:34 AM IST 2025
