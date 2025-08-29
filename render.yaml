@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: bfhl-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /bfhl
+    envVars:
+      - key: NODE_ENV
+        value: production
