@@ -215,7 +215,7 @@ app.use('*', (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`🚀 BFHL API Server running on port ${PORT}`);
   console.log(`📍 Health check: http://localhost:${PORT}/bfhl`);
   console.log(`📮 POST endpoint: http://localhost:${PORT}/bfhl`);
