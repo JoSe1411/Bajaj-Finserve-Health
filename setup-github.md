@@ -60,10 +60,10 @@ After pushing, update the README.md file to replace placeholder URLs:
 
 ## Step 5: Deploy & Submit
 
-1. **Deploy** to your chosen platform (Vercel recommended):
-   ```bash
-   vercel --prod  # Follow prompts to connect GitHub repo
-   ```
+1. **Deploy** to Railway (recommended):
+   - Go to [railway.app](https://railway.app)
+   - Sign in with GitHub → "New Project" → "Deploy from GitHub repo"
+   - Select your repository → Auto-deploy
 
 2. **Test** your deployed API:
    ```bash

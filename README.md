@@ -103,40 +103,32 @@ npm test
 node test-api.js http://localhost:3000
 ```
 
-### 4️⃣ Deploy (Choose One)
+### 4️⃣ Deploy to Railway (Recommended)
 ```bash
-# Vercel (Recommended)
-npm i -g vercel && vercel --prod
-
-# Railway
-npm i -g @railway/cli && railway up
-
-# Render
-# Use GitHub integration via dashboard
+# Go to railway.app and deploy via web dashboard
+# Connect your GitHub repository for automatic deployment
+# No CLI installation required!
 ```
 
-## 🌐 Deployment Options
+## 🚀 Railway Deployment (Recommended)
 
-### Vercel
-```bash
-# Install Vercel CLI
-npm i -g vercel
+### Quick Web Deployment
+1. **Go to**: [railway.app](https://railway.app)
+2. **Sign in** with your GitHub account
+3. **"New Project"** → **"Deploy from GitHub repo"**
+4. **Select**: Your repository
+5. **Deploy automatically** - Railway detects Node.js
 
-# Deploy
-vercel --prod
+### Add Environment Variables (Optional)
+In Railway dashboard → Variables:
+```
+USER_FULL_NAME = your_name_here
+USER_BIRTH_DATE = ddmmyyyy
+USER_EMAIL = your@email.com
+USER_ROLL_NUMBER = YOUR123
 ```
 
-### Railway
-```bash
-# Install Railway CLI
-npm install -g @railway/cli
-
-# Login and deploy
-railway login
-railway deploy
-```
-
-### Render
+### Alternative: Render
 1. Connect your GitHub repository
 2. Set build command: `npm install`
 3. Set start command: `npm start`
