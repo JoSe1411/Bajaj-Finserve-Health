@@ -350,29 +350,6 @@ curl http://localhost:3000/bfhl
 - ✅ Error sanitization
 - ✅ No sensitive data exposure
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature/new-feature`
-3. Make changes and add tests
-4. Run test suite: `npm test`
-5. Commit changes: `git commit -m "Add new feature"`
-6. Push branch: `git push origin feature/new-feature`
-7. Create Pull Request
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) file for details.
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/YOUR_USERNAME/bfhl-api/issues)
-- **Documentation**: This README and [DEPLOYMENT.md](DEPLOYMENT.md)
-- **API Specification**: [BFHL Requirements](#bfhl-requirements)
-
----
-
-⭐ **Star this repository if it helped you!**
 
 **Important**: Update personal information in `.env` or environment variables before deployment.
 # Deployment fix - Fri Aug 29 11:01:34 AM IST 2025
