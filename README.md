@@ -102,12 +102,6 @@ npm test
 # Test API manually
 node test-api.js http://localhost:3000
 ```
-
-### 4️⃣ Deploy to Railway (Recommended)
-```bash
-# Go to railway.app and deploy via web dashboard
-# Connect your GitHub repository for automatic deployment
-# No CLI installation required!
 ```
 ## 💡 How It Works
 
