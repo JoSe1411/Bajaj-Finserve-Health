@@ -109,31 +109,6 @@ node test-api.js http://localhost:3000
 # Connect your GitHub repository for automatic deployment
 # No CLI installation required!
 ```
-
-## 🚀 Railway Deployment (Recommended)
-
-### Quick Web Deployment
-1. **Go to**: [railway.app](https://railway.app)
-2. **Sign in** with your GitHub account
-3. **"New Project"** → **"Deploy from GitHub repo"**
-4. **Select**: Your repository
-5. **Deploy automatically** - Railway detects Node.js
-
-### Add Environment Variables (Optional)
-In Railway dashboard → Variables:
-```
-USER_FULL_NAME = your_name_here
-USER_BIRTH_DATE = ddmmyyyy
-USER_EMAIL = your@email.com
-USER_ROLL_NUMBER = YOUR123
-```
-
-### Alternative: Render
-1. Connect your GitHub repository
-2. Set build command: `npm install`
-3. Set start command: `npm start`
-4. Deploy
-
 ## 💡 How It Works
 
 The API processes mixed arrays and categorizes data according to these rules:
